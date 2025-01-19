@@ -6,4 +6,4 @@ app = FastAPI(
     version="1.0.0",
 )
 
-app.include_router(tasks.router, prefix="/items", tags=["items"])
+app.include_router(tasks.router, prefix="/tasks", tags=["tasks"])
